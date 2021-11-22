@@ -1,0 +1,19 @@
+/* HEADER */
+
+#sfondo {
+background-image: url(img/pattern.png);
+background-size: contain;
+background-color: rgb(93, 169, 255);
+height: 100px;
+width: 100%;
+}
+
+#logo {
+ height: 40%;
+ margin-top: 55px;
+ margin-left: 10px;
+}
+
+/* MAIN*/
+
+

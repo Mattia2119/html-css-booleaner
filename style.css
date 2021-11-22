@@ -1,19 +1,125 @@
+/* BODY */
+
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
 /* HEADER */
 
+
 #sfondo {
-background-image: url(img/pattern.png);
-background-size: contain;
-background-color: rgb(93, 169, 255);
-height: 100px;
-width: 100%;
+    background-image: url(img/pattern.png);
+    background-size: contain;
+    background-color: rgb(93, 169, 255);
+    height: 100px;
+    width: 100%;
 }
 
 #logo {
- height: 40%;
- margin-top: 55px;
- margin-left: 10px;
+    height: 40%;
+    margin-top: 55px;
+    margin-left: 10px;
 }
 
 /* MAIN*/
 
+#the-booleaner {
+    color: rgb(93, 169, 255);
+}
+
+#data {
+    font-size: 10px;
+}
+
+#testoblu {
+    color: rgb(0, 110, 255);
+}
+
+.testopiccolo {
+    font-size: 15px;
+}
+
+.testosottolineato {
+    background-color: yellow;
+}
+
+#listapuntata {
+    max-width: 80%;
+}
+
+
+/*SFONDO E COLORI TABELLA*/
+
+.colonna1 {
+    background-color:rgb(49, 49, 104);
+    color: white;
+}
+
+.colonna2 {
+    background-color:teal;
+}
+
+.colonna3 {
+    background-color:white;
+
+}
+
+.colonna4 {
+    background-color:teal;
+}
+
+/*FORMATTAZIONE TABELLA*/
+
+.top {
+    display: inline-block;
+    width: 30%;
+}
+
+.left {
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    bottom: 25px;
+}
+
+.center {
+    display: inline-block;
+    width:30%;
+    position: relative;
+    bottom: 25px;
+}
+
+.right {
+    display: inline-block;
+    width: 30%;
+}
+
+/* FOOTER */
+
+#F1 { 
+    color: lightgray;
+}
+
+#immagine1 {
+    margin: 0px;
+    background-image: url(img/monitor.jpg);
+    background-repeat: no-repeat;
+    color:white;
+    text-align: left;
+    width: 240px;
+    height: 150px;
+  }
+
+#immagine2 {
+    margin: 0px;
+    background-image: url(img/graph.jpg);
+    background-repeat: no-repeat;
+    color:white;
+    text-align: left;
+    width: 240px;
+    height: 150px;
+  }
+ 
 
